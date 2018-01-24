@@ -8,3 +8,5 @@ group :cucumber do
   gem "rspec"
   gem "rspec-core", "~> 3.4.4"
 end
+
+gem 'sshkit', git: 'https://github.com/Shopify/sshkit.git', branch: 'use-better-cache-key'
